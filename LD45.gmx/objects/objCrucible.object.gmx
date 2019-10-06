@@ -201,7 +201,7 @@ if ds_list_size(colliding_elements) == 1 &amp;&amp; !mouse_check_button(mb_left)
     out_recipe = noone
     if recipe != -1 &amp;&amp;( scrCountElementsOfType(ds_grid_get(data.recipes, 0, recipe)) &lt; 4)
         {
-        if recipe != 33 || (recipe == 33 &amp;&amp; scrCountElementsOfType(ds_grid_get(data.recipes, 0, recipe)) == 0)
+        if recipe != 30 || (recipe == 30 &amp;&amp; scrCountElementsOfType(ds_grid_get(data.recipes, 0, recipe)) == 0)
            out_recipe = scrCreateRecipeOutput(recipe)
         }
 
