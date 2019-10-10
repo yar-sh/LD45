@@ -11,13 +11,13 @@ switch(argument0)
              case 4:
          return "Compound Fact"
              case 5:
-         return "Nonexistance"
+         return "Nonexistence"
              case 6:
          return "Reality"
              case 7:
          return "Void"
              case 8:
-         return "Existance"
+         return "Existence"
              case 9:
          return "Object"
              case 10:
